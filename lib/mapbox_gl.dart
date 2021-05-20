@@ -41,7 +41,7 @@ export 'package:mapbox_gl_platform_interface/mapbox_gl_platform_interface.dart'
         FillOptions;
 
 part 'src/controller.dart';
-part 'src/mapbox_map.dart';
-part 'src/global.dart';
-part 'src/offline_region.dart';
 part 'src/download_region_status.dart';
+part 'src/global.dart';
+part 'src/mapbox_map.dart';
+part 'src/offline_region.dart';

@@ -8,9 +8,8 @@ import 'package:location/location.dart';
 import 'package:mapbox_gl_example/custom_marker.dart';
 import 'package:mapbox_gl_example/full_map.dart';
 import 'package:mapbox_gl_example/offline_regions.dart';
-import 'package:mapbox_gl_example/symbol_drag.dart';
 import 'package:mapbox_gl_example/place_batch.dart';
-
+import 'package:mapbox_gl_example/symbol_drag.dart';
 
 import 'animate_camera.dart';
 import 'annotation_order_maps.dart';
@@ -21,9 +20,9 @@ import 'map_ui.dart';
 import 'move_camera.dart';
 import 'page.dart';
 import 'place_circle.dart';
+import 'place_fill.dart';
 import 'place_source.dart';
 import 'place_symbol.dart';
-import 'place_fill.dart';
 import 'scrolling_map.dart';
 
 final List<ExamplePage> _allPages = <ExamplePage>[
