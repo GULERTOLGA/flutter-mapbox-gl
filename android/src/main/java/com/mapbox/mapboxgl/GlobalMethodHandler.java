@@ -75,6 +75,9 @@ class GlobalMethodHandler implements MethodChannel.MethodCallHandler {
             case "setOfflineTileCountLimit":
                 OfflineManagerUtils.setOfflineTileCountLimit(result, context, methodCall.<Number>argument("limit").longValue());
                 break;
+            case "setHttpClient":
+                OfflineManagerUtils.setHttpClient();
+                break;
             case "downloadOfflineRegion":
                 // Get args from caller
                 Map<String, Object> definitionMap = (Map<String, Object>) methodCall.argument("definition");

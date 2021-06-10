@@ -82,6 +82,11 @@ Future<dynamic> setOfflineTileCountLimit(int limit, {String accessToken}) =>
       },
     );
 
+Future<void> setMapboxHttpClient()
+{
+  return _globalChannel.invokeMethod('setHttpClient');
+}
+
 Future<dynamic> deleteOfflineRegion(int id, {String accessToken}) =>
     _globalChannel.invokeMethod(
       'deleteOfflineRegion',
