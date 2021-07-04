@@ -40,8 +40,6 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   OfflineRegionsPage(),
   AnnotationOrderPage(),
   CustomMarkerPage(),
-  SymbolDragPage(),
-  BatchAddPage(),
 ];
 
 class MapsDemo extends StatelessWidget {
